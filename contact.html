@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta author: Mara Brown>
+    <meta name="description" content="Search Dogs Northeast">
+    <meta name="keywords" content="Search dogs, rescue, northeast">
+    <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Search Dogs Northeast</title>
+         <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <div id="container">
+        <div id="header">
+            <img id="banner" style="height: 275px; width: 275px;" src="images/dogandcompass.png">
+            <h1 id="bannertext">SEARCH DOGS <br> NORTHEAST</h1>   
+            <img id="new england" style="width: 366px; height:275px;"src="images/new england.png">   
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Get Involved</a>
+                        <div class="dropdown-content">
+                        <a href="support.html">Donate</a>
+                        <a href="volunteer.html">Volunteer</a>
+                        </div>
+                    </li>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
+                <li style="float:right;"><a href="http://members.searchdogsnortheast.org">Members</a></li>
+            </ul>
+        </div>
+<!-- End Nav Bar -->
+        <div id="content">
+         <h2>Contact</h2>
+
+  <center><h5 id="contactheader">SEARCH DOGS NORTHEAST<br>
+  132 Farlow Rd<br>
+  Newton, MA 02458<br>
+  <a href="mailto:searchdogsnortheast@gmail.com">searchdogsnortheast@gmail.com</a><br>
+    <a target="_blank" title="follow us on facebook" href="http://www.facebook.com/searchdogsnortheast"><img alt="follow us on facebook" src="images/findus_online/png/FB-FindUsonFacebook-online-114.png" border=0></a>
+     <br>
+  <br></center></h5>
+ 
+    <img style ="width:350px; height:450; float: right; overflow: visible; margin-right: 100px; padding: 5px;" src="images/Magic2.jpg">
+    <div class="container"> 
+    <form name="contactform" method="post" action="send_form_email.php">
+    Name: <input type="text" name="name"><br>
+    Address: <input type="text" name="address"><br>
+    Town/City: <input type="text" name="city"><br>
+    State: <input type="text" name="state"><br>
+    Email: <input type="email" name="email"><br>
+    Cell: <input type="text" name="cell"><br>
+    Home: <input type="text" name="home"><br>
+    Dog's Name: <input type="text" name="dog_name"><br>
+    Dog's Breed: <input type="text" name="dog_breed"><br>
+    Comments or Questions: <textarea type="text" name="comment"></textarea><br><br>
+       <div class="button">
+       <button type="submit">Send your information</button>
+    </div>
+    </form>    
+  </div>
+ </div>   
+  <script language="JavaScript">
+var frmvalidator  = new Validator("myemailform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
+<!-- End page content -->
+            <div id="footer">
+                <center>
+	            <h6>
+	             <p>SEARCH DOGS NORTHEAST  -  132 Farlow Rd  Newton, MA 02458  -  <a href="mailto:searchdogsnortheast@gmail.com">searchdogsnortheast@gmail.com</a></p>
+	             <a target="_blank" title="follow us on facebook" href="http://www.facebook.com/searchdogsnortheast"><img alt="follow us on facebook" src="images/f_logo_online/png/FB-f-Logo__blue_29.png" border=0></a>
+                 <br>
+                </h6>
+	            </center>
+                </div>
+        </div>
+    </body>
+</html>
