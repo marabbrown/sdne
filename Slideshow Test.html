@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Search Dogs Northeast">
+    <meta name="keywords" content="Search dogs, rescue, northeast">
+<link rel="stylesheet" type="text/css" href="slideshow_style.css">
+       <title>Search Dogs Northeast</title>
+         <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <div id="container">
+        <div id="header">
+            <img src="images/SDNEbanner.png" width="650" height="250" alt="" border="0" align="left" style="margin: 0px 0px 0px 10px;">
+	        <img src="images/patchlogotransparent.png" width="250" height="250" alt="" border="0" align="right" style="margin: 20px 40px;">    
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href"index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a class="active" href="gallery.html">Gallery</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="application.html">Application</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+<!-- End Nav Bar -->
+        <div id="content">
+              <h2>Gallery</h2>
+  <h3>For more photos, follow us on Facebook!  <a target="_blank" title="follow us on facebook" href="http://www.facebook.com/searchdogsnortheast"><img alt="follow us on facebook" src="images/f_logo_online/png/FB-f-Logo__blue_29.png" border=0></a>
+     <br> </h3>
+    <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/2012-3-25 SDNE All Team 011.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/2012-3-25 SDNE All Team 012.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/2012-3-25 SDNE All Team 026A.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<script language="javascript">
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</div>
+<!-- End page content -->
+            <div id="footer">
+                <center>
+	            <h6>
+	             <p>SEARCH DOGS NORTHEAST  -  32 Farlow Rd  Newton, MA 02458  -  <a href="mailto:searchdogsnortheast@gmail.com">searchdogsnortheast@gmail.com</a></p>
+	             <a target="_blank" title="follow us on facebook" href="http://www.facebook.com/searchdogsnortheast"><img alt="follow us on facebook" src="images/f_logo_online/png/FB-f-Logo__blue_29.png" border=0></a>
+                 <br>
+                </h6>
+	            </center>
+                </div>
+        </div>
+    </body>
+</html>

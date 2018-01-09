@@ -1,0 +1,330 @@
+html {
+    overflow-y: scroll;
+}
+p { 
+    line-height: 1.4em; 
+    }
+h1, h2, h3, h4, h9 {
+    color: #007DBC;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1 { 
+    font-size: 1.8em; 
+    }
+h2 { 
+    font-size: 1.5em;
+    color: #115b00;
+ }
+h3 { 
+    font-size: 1.0em;
+    font-weight: normal;
+    color: black;
+}
+h4 { 
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    text-align: center; 
+}
+h5 { 
+    font-size: 1.0em;
+    font-weight: bold;
+    color: black;
+}
+h6 { 
+    font-size: 0.8em;
+    weight: normal;
+    color: grey;
+}
+h7 { 
+    line-height: 1.5em;
+    font-weight: normal;
+    font-size: 1.0em;
+}
+h8{ 
+    line-height: 1.0em;
+    font-weight: normal;
+    font-size: 1.0em;
+} 
+h9{
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #115b00;
+}
+a{
+	color: #006400;
+	text-decoration: none;
+}
+a:hover, a:active{ 
+        text-decoration: underline; 
+        }
+hr {
+    height: 1.5px;
+    color: #115b00;
+    background-color: #115b00;
+}
+#body{
+    font-family:"Palatino Linotype", "Book Antiqua", "Palatino", serif;
+	font-size: 100%; 
+	line-height: 1.0em;
+    padding: 0px 0px 20px;
+	width: 100%;
+	margin: 0px auto;
+    background-color: #072400;
+}
+#container {
+	background-color: lightgray;
+    width: 90%;
+    margin: auto;
+    padding: 20px 20px 0px 20px;
+}
+   
+#header{
+    height: 240px;
+	font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+    padding: 0px 5px 25px 5px;
+    text-align: center;
+}
+
+#banner {
+  float: left;
+  margin: 0px;
+  overflow:auto;
+  border: 0;
+  clear: both;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (min-width: 1000px) {
+
+}
+#nav {
+    width: 50%;
+    border: 0px;
+    padding: 5px 0px 5px 0px;
+    float: right;
+    clear: both;
+}
+    #nav ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+            /* Rounded left corners */
+         /* -webkit-border-top-left-radius: 25px;
+          -webkit-border-bottom-left-radius: 25px;
+          -moz-border-radius-topleft: 25px;
+          -moz-border-radius-bottomleft: 25px;
+          border-top-left-radius: 25px;
+          border-bottom-left-radius: 25px;*/
+          /* Rounded right corners */
+          /*-webkit-border-top-right-radius: 25px;
+          -webkit-border-bottom-right-radius: 25px;
+          -moz-border-radius-topright: 25px;
+          -moz-border-radius-bottomright: 25px;
+          border-top-right-radius: 25px;
+          border-bottom-right-radius: 25px;*/
+      
+          }
+          #nav li {
+               float: right;
+               color: #072400;
+               }
+          #nav li a {
+               display: block;
+               color: #072400;
+               text-align: right;
+               padding: 14px 16px;
+               text-decoration: none;
+               }
+          #nav a:hover:not(.active) {
+               background-color: #333;
+               }
+          .active {
+               border-top: 2px solid #115b00;
+
+               }
+    li a, .dropbtn {
+    display: inline-block;
+    color: #072400;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color: white;
+    background-color: #333;
+    
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #708090;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    overflow: visible;
+    z-index: 1;
+}
+/* ===== END Nav Menu ===== */
+#content{
+    
+    overflow:hidden;
+    text-align: left;
+	margin: auto;
+	background-color: #f5f5f5;
+	padding: 20px;
+    clear: both;
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75); 
+}
+
+table{
+    float:left;
+}
+div.linkreset a:link {
+  color: navy;
+  background-color: transparent;
+}
+
+div.linkreset a:hover {
+  color: navy;
+  background-color: transparent;
+}
+
+div.linkreset a:visited {
+  color: lightsteelblue;
+  background-color: transparent;
+}
+
+#content2{ /* Content popup boxes */
+    overflow:hidden;
+    text-align: left;
+	margin: auto;
+	background-color: darkseagreen;
+	padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    clear: both;
+ 
+}
+#contactheader{
+    line-height: 1.3em;
+}
+
+#indent{
+    text-align: left;
+    margin-left: 30px;
+    clear: both;
+     
+}
+
+#linkalignright{ 
+    text-align: right;
+    margin: auto;
+    clear: both;
+    padding-right: 30px;
+}
+
+#footer{
+    margin: auto;
+}
+form {
+    /* Just to center the form on the page */
+    position: relative;
+    margin:auto;
+    margin-left:100px;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    font: arial;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+    font: 1em "Trebuchet MS", Helvetica, sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    width: 400px;
+    resize: none;
+}
+
+.button {
+    padding-left: 90px; 
+}
+button {
+    margin-left: .5em;
+}
+.container {
+    width: 500px;
+    float: left;
+    margin: 0;
+    padding: 5px;
+    overflow: visible
+}
+.container input {
+    width: 100%;
+    clear: both;
+}
+   #app {
+          float:right;
+          overflow: visible;
+          padding: 0px;
+          box-shadow: 3px 3px 10px black;
+          margin: 115px;
+      }
+#facebook-feed {
+    float: right;
+    word-wrap: normal;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+#amznCharityBanner {
+    float: left;
+    
+}
